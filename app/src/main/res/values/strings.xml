@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BusinessCard</string>
+    <string name="business_name">Language Travel</string>
+    <string name="vision">Your language travel starts in our language school.</string>
+    <string name="description">We teach literally every language in the world!</string>
+    <string name="address">Street 1-1, City, Country, Planet</string>
+    <string name="hours">8 AM - 15 PM, Mon - Fri</string>
+    <string name="web">www.theawesomeschool.yes</string>
+</resources>

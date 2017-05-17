@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    tools:context="com.example.android.businesscard.MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#61e5b4"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="@string/business_name"
+        android:textAllCaps="true"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00a99d"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="@string/vision"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#ff6666"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="@string/description"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#ffffff" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/icon_address"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="48dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_address"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon_address"
+            android:padding="16dp"
+            android:text="@string/address"
+            android:textAppearance="?android:textAppearanceSmall" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/icon_hours"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="48dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_hours"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon_hours"
+            android:padding="16dp"
+            android:text="@string/hours"
+            android:textAppearance="?android:textAppearanceSmall" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/icon_web"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="48dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_web" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon_web"
+            android:padding="16dp"
+            android:text="@string/web"
+            android:textAppearance="?android:textAppearanceSmall" />
+    </RelativeLayout>
+</LinearLayout>
